@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex"><!-- remove before public launch -->
+<title>Contact | Alpine Energy Trading</title>
+<meta name="description" content="Send an inquiry to Alpine Energy Trading.">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="stylesheet" href="assets/css/styles.css">
+<script src="assets/js/site-config.js" defer></script>
+<script src="assets/js/components.js" defer></script>
+<script src="assets/js/contact.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header id="site-header"></header>
+<main id="main">
+<section class="hero"><div class="wrap">
+<h1>Send an inquiry.</h1>
+<p class="lead">Tell us what you want to buy or sell. We reply by email. Please use your company email address.</p>
+<form id="inq" class="form" novalidate>
+<label>Your name *<input name="name" autocomplete="name" required maxlength="100"></label>
+<label>Company *<input name="company" autocomplete="organization" required maxlength="150"></label>
+<label>Job title<input name="role" autocomplete="organization-title" maxlength="100"></label>
+<label>Company email *<input name="email" type="email" autocomplete="email" required maxlength="150"></label>
+<label>Phone<input name="phone" type="tel" autocomplete="tel" maxlength="40"></label>
+<label>You are<select name="interest"><option>Buying</option><option>Selling</option><option>Other</option></select></label>
+<label>Product<select name="product"><option>Crude oil</option><option>Gasoline</option><option>Gasoil and diesel</option><option>Jet fuel</option><option>Fuel oil</option><option>Other</option></select></label>
+<label>Region<select name="region"><option>Middle East</option><option>West and Central Africa</option><option>Asia Pacific</option><option>Other</option></select></label>
+<label class="full">Approximate quantity and timing<input name="quantity" maxlength="80"></label>
+<label class="full">Message *<textarea name="message" required minlength="10" maxlength="4000"></textarea></label>
+<div class="hp" aria-hidden="true"><label>Website<input name="website" tabindex="-1" autocomplete="off"></label></div>
+<label class="full chk"><input type="checkbox" name="consent" required>I agree that Alpine Energy Trading may use these details to reply to my inquiry. See the <a href="privacy.html">privacy policy</a>.</label>
+<div class="full"><div id="ts"></div></div>
+<p class="full">Do not send passwords, bank details or card numbers through this form.</p>
+<div class="full"><button class="btn" type="submit">Send inquiry</button></div>
+</form>
+<p id="st" role="status" aria-live="polite"></p>
+</div></section>
+<section class="band" data-opt><div class="wrap"><h2>Company details</h2><div data-facts></div></div></section>
+</main>
+<footer id="site-footer"></footer>
+</body>
+</html>
