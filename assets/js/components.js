@@ -1,7 +1,7 @@
 (function () {
-  var C = window.AET, here = location.pathname.split("/").pop() || "index.html";
+  var C = window.AET, here = (location.pathname.split("/").pop() || "index").replace(/\.html$/, "");
   var live = C.pages.filter(function (p) { return p.live; });
-  var link = function (p) { return '<a href="' + p.href + '"' + (p.href === here ? ' aria-current="page"' : "") + ">" + p.label + "</a>"; };
+  var link = function (p) { return '<a href="' + p.href + '"' + (p.href.replace(/\.html$/, "") === here ? ' aria-current="page"' : "") + ">" + p.label + "</a>"; };
   var h = document.getElementById("site-header");
   if (h) {
     h.className = "site";
