@@ -1,0 +1,13 @@
+{
+  "sample": true,
+  "updated": null,
+  "items": [
+    { "code": "BRENT", "short": "BRENT", "name": "Brent crude", "desc": "International crude benchmark", "unit": "USD/bbl", "price": 80.00, "prev": 79.40, "change": 0.60, "asOf": "Sample", "source": "Sample figure", "featured": true },
+    { "code": "WTI", "short": "WTI", "name": "WTI crude", "desc": "US crude benchmark, Cushing", "unit": "USD/bbl", "price": 76.00, "prev": 76.50, "change": -0.50, "asOf": "Sample", "source": "Sample figure", "featured": true },
+    { "code": "ULSD", "short": "ULSD", "name": "Diesel (ULSD)", "desc": "Ultra-low sulphur diesel, NY Harbor spot", "unit": "USD/gal", "price": 2.500, "prev": 2.480, "change": 0.020, "asOf": "Sample", "source": "Sample figure", "featured": true },
+    { "code": "JET", "short": "JET", "name": "Jet fuel", "desc": "Kerosene-type jet fuel, US Gulf Coast spot", "unit": "USD/gal", "price": 2.300, "prev": 2.310, "change": -0.010, "asOf": "Sample", "source": "Sample figure", "featured": true },
+    { "code": "GASOLINE", "short": "GASOLINE", "name": "Gasoline", "desc": "Conventional regular gasoline, NY Harbor spot", "unit": "USD/gal", "price": 2.200, "prev": 2.190, "change": 0.010, "asOf": "Sample", "source": "Sample figure" },
+    { "code": "HEATOIL", "short": "HEATING OIL", "name": "Heating oil", "desc": "No. 2 heating oil, NY Harbor spot", "unit": "USD/gal", "price": 2.400, "prev": 2.390, "change": 0.010, "asOf": "Sample", "source": "Sample figure" },
+    { "code": "PROPANE", "short": "PROPANE", "name": "Propane", "desc": "Mont Belvieu, TX spot", "unit": "USD/gal", "price": 0.700, "prev": 0.705, "change": -0.005, "asOf": "Sample", "source": "Sample figure" }
+  ]
+}

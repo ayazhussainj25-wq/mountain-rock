@@ -1,0 +1,125 @@
+{
+  "_howto": "To add a listing, copy one block between { } and change the text. type: 'offer' (supplier-backed) or 'requirement' (buyer). status: Available, Open, Under offer or Closed. Set show to false to hide a listing without deleting it. Remove the line \"sample\": true once a listing is real.",
+  "offers": [
+    {
+      "ref": "AET-OF-001",
+      "type": "offer",
+      "title": "EN590 10ppm Diesel",
+      "status": "Available",
+      "sample": true,
+      "show": true,
+      "details": [
+        [
+          "Origin",
+          "[Verified origin]"
+        ],
+        [
+          "Quantity",
+          "50,000 MT × 12 months"
+        ],
+        [
+          "Delivery",
+          "CIF [Port] · trial lift"
+        ],
+        [
+          "Payment",
+          "DLC / SBLC, Tier 1 bank"
+        ],
+        [
+          "Inspection",
+          "SGS at load port"
+        ]
+      ]
+    },
+    {
+      "ref": "AET-RQ-002",
+      "type": "requirement",
+      "title": "Jet A-1 Aviation Fuel",
+      "status": "Open",
+      "sample": true,
+      "show": true,
+      "details": [
+        [
+          "Destination",
+          "[Port]"
+        ],
+        [
+          "Quantity",
+          "2,000,000 BBL / month"
+        ],
+        [
+          "Delivery",
+          "FOB or CIF"
+        ],
+        [
+          "Contract",
+          "12 months, extendable"
+        ],
+        [
+          "Buyer",
+          "Verified end buyer"
+        ]
+      ]
+    },
+    {
+      "ref": "AET-OF-003",
+      "type": "offer",
+      "title": "Fuel Oil (VLSFO 0.5%)",
+      "status": "Under offer",
+      "sample": true,
+      "show": true,
+      "details": [
+        [
+          "Origin",
+          "[Verified origin]"
+        ],
+        [
+          "Quantity",
+          "30,000 MT / month"
+        ],
+        [
+          "Spec",
+          "ISO 8217 RMG 380"
+        ],
+        [
+          "Delivery",
+          "FOB [Port]"
+        ],
+        [
+          "Payment",
+          "DLC at sight"
+        ]
+      ]
+    },
+    {
+      "ref": "AET-RQ-004",
+      "type": "requirement",
+      "title": "Gasoline RON 92",
+      "status": "Open",
+      "sample": true,
+      "show": true,
+      "details": [
+        [
+          "Destination",
+          "[Port]"
+        ],
+        [
+          "Quantity",
+          "40,000 MT / month"
+        ],
+        [
+          "Buyer",
+          "Oil marketing company"
+        ],
+        [
+          "Delivery",
+          "CFR"
+        ],
+        [
+          "Contract",
+          "Spot + term"
+        ]
+      ]
+    }
+  ]
+}
